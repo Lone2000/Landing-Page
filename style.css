@@ -1,47 +1,76 @@
-/* Body will have text-align */
 *{
-    padding:0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
 body{
-    font-family: Verdana, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    display: flex;
-    flex-direction: column;
 }
 
-/* Section 1 */
+
 .header{
-    background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height:80px;
+    height: 100px;
+    background-color: #1F2937;
+    padding: 70px;
 }
 
 .header .right{
     font-size: 24px;
+    font-weight: bold;
 }
 
 ul{
     display: flex;
-    list-style-type: none;
+    list-style: none;
     gap: 20px;
 }
 
-
-
 ul a{
-    text-decoration: none;
     color: white;
-    font-size: 18px;
+    text-decoration: none;
 }
 
 
 /* Section 2 */
+.hero-showcase{
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 70px;
+}
 
 
+
+.left-showcase h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.left-showcase p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.left-showcase .button{
+    color:white;
+    background-color: #3882F6;
+    margin-top: 20px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.hero-showcase img{
+    max-width: 500px;
+}
 
