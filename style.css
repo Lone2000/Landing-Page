@@ -1,0 +1,47 @@
+/* Body will have text-align */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Section 1 */
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+}
+
+.header .right{
+    font-size: 24px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+
+
+ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+/* Section 2 */
+
+
+
