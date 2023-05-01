@@ -68,6 +68,7 @@ ul a{
     border-radius: 10px;
     border: none;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .hero-showcase img{
@@ -124,11 +125,62 @@ ul a{
 
 }
 
-.card .testiomonal-text{
+.card .testimonal-text{
     font-size: 25px;
 }
 .card .author{
     margin-top: 10px;
     font-weight: bolder;
     text-align: center;
+    font-size: 18px;
+}
+
+
+/* Section 4 */
+.contact-showcase{
+    background-color: white;
+    color: white;
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_container{
+    background-color: #3882F6;
+    display: flex;
+    padding: 25px 0px;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.left-contact{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.right-contact button{
+    color:black;
+    font-size: 18px;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:auto;
+    height: 70px;
+
+    font-weight: bold;
 }
