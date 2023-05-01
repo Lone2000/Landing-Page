@@ -74,3 +74,31 @@ ul a{
     max-width: 500px;
 }
 
+
+
+/*  Section 2 */
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sub-showcase .title{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 50px 0 ;
+}
+.art{
+    max-width: 200px;
+}
+
+.art .text{
+    margin-top: 10px;
+}
+
+.art img{
+    height: 300px;
+    border-radius: 20px;
+}
